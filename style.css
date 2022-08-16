@@ -148,6 +148,7 @@ li {
 }
 
 .dashboard {
+  padding-right: 1em;
   display: grid;
   background-color: #e2e8f0;
   grid-template-columns: 4fr 1fr;
@@ -228,6 +229,20 @@ li {
   box-shadow: 1px 1px 5px gray;
 }
 
+.announcments-title {
+  font-size: 1em;
+  font-weight: bolder;
+}
+
+.announcment-content {
+  color: #767676;
+  font-size: 0.8em;
+}
+
+.announcments-item {
+  border-bottom: solid #919191 1px;
+}
+
 .trending-pics {
   width: 32px;
   height: 32px;
@@ -237,4 +252,16 @@ li {
   display: flex;
   align-items: center;
   gap: 1em;
+}
+
+.trending-item > div {
+  font-size: 0.8en;
+}
+
+.trending-tag {
+  margin-bottom: -16px;
+}
+
+.trendeing-user {
+  color: #767676;
 }
